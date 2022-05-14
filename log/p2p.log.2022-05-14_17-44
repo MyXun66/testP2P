@@ -1,0 +1,13 @@
+2022-05-14 17:41:35,438 INFO [root] [__init__.py(<module>:5)] - 在控制台打印日志
+2022-05-14 17:42:43,393 INFO [root] [__init__.py(<module>:5)] - 在控制台打印日志
+2022-05-14 17:44:01,153 INFO [root] [__init__.py(<module>:5)] - 在控制台打印日志
+2022-05-14 17:44:01,508 INFO [root] [login_param.py(test01_get_img_verify_code:58)] - r = 0.17022472730877547 response = <Response [200]>
+2022-05-14 17:44:01,592 INFO [root] [login_param.py(test01_get_img_verify_code:58)] - r = 45515224 response = <Response [200]>
+2022-05-14 17:44:01,670 INFO [root] [login_param.py(test01_get_img_verify_code:58)] - r =  response = <Response [404]>
+2022-05-14 17:44:01,755 INFO [root] [login_param.py(test01_get_img_verify_code:58)] - r = bjicadml response = <Response [400]>
+2022-05-14 17:44:01,939 INFO [root] [login_param.py(test18_login_phone_not_exist:374)] - login response = {'status': 100, 'description': '用户不存在'}
+2022-05-14 17:44:02,008 INFO [root] [login_param.py(test19_login_pwd_is_null:382)] - login response = {'status': 100, 'description': '密码不能为空'}
+2022-05-14 17:44:02,109 INFO [root] [login_param.py(test20_login_wrong_pwd:391)] - login response = {'status': 100, 'data': {'login_error': 2}, 'description': '密码错误1次,达到3次将锁定账户'}
+2022-05-14 17:44:02,171 INFO [root] [login_param.py(test20_login_wrong_pwd:396)] - login response = {'status': 100, 'data': {'login_error': 3}, 'description': '密码错误2次,达到3次将锁定账户'}
+2022-05-14 17:44:02,225 INFO [root] [login_param.py(test20_login_wrong_pwd:401)] - login response = {'status': 100, 'description': '由于连续输入错误密码达到上限，账号已被锁定，请于1.0分钟后重新登录'}
+2022-05-14 17:44:02,272 INFO [root] [login_param.py(test20_login_wrong_pwd:406)] - login response = {'status': 100, 'description': '由于连续输入错误密码达到上限，账号已被锁定，请于1.0分钟后重新登录'}

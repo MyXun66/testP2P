@@ -1,0 +1,29 @@
+2022-05-14 19:39:16,433 INFO [root] [__init__.py(<module>:5)] - 在控制台打印日志
+2022-05-14 19:39:49,704 INFO [root] [__init__.py(<module>:5)] - 在控制台打印日志
+2022-05-14 19:39:49,936 INFO [root] [login_param.py(test01_get_img_verify_code:44)] - r = 0.262807608064772 response = <Response [200]>
+2022-05-14 19:39:50,021 INFO [root] [login_param.py(test01_get_img_verify_code:44)] - r = 36897713 response = <Response [200]>
+2022-05-14 19:39:50,090 INFO [root] [login_param.py(test01_get_img_verify_code:44)] - r =  response = <Response [404]>
+2022-05-14 19:39:50,168 INFO [root] [login_param.py(test01_get_img_verify_code:44)] - r = miabhdke response = <Response [400]>
+2022-05-14 19:39:50,290 INFO [root] [login_param.py(test10_register:63)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2022-05-14 19:39:50,290 INFO [root] [loginAPI.py(register:32)] - {'phone': '17842445555', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': ''}
+2022-05-14 19:39:50,337 INFO [root] [login_param.py(test10_register:70)] - register response = {'status': 100, 'description': '手机已存在!'}
+2022-05-14 19:39:50,522 INFO [root] [login_param.py(test10_register:63)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2022-05-14 19:39:50,522 INFO [root] [loginAPI.py(register:32)] - {'phone': '17851556666', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': '13012345678'}
+2022-05-14 19:39:50,568 INFO [root] [login_param.py(test10_register:70)] - register response = {'status': 100, 'description': '手机已存在!'}
+2022-05-14 19:39:50,722 INFO [root] [login_param.py(test10_register:63)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2022-05-14 19:39:50,722 INFO [root] [loginAPI.py(register:32)] - {'phone': '17855555555', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': ''}
+2022-05-14 19:39:50,769 INFO [root] [login_param.py(test10_register:70)] - register response = {'status': 100, 'description': '手机已存在!'}
+2022-05-14 19:39:50,923 INFO [root] [login_param.py(test10_register:63)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2022-05-14 19:39:50,923 INFO [root] [loginAPI.py(register:32)] - {'phone': '17845556667', 'password': '', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': ''}
+2022-05-14 19:39:50,985 INFO [root] [login_param.py(test10_register:70)] - register response = {'status': 100, 'description': '手机已存在!'}
+2022-05-14 19:39:51,123 INFO [root] [login_param.py(test10_register:63)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2022-05-14 19:39:51,123 INFO [root] [loginAPI.py(register:32)] - {'phone': '17844656667', 'password': 'test123', 'verifycode': '1234', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': ''}
+2022-05-14 19:39:51,170 INFO [root] [login_param.py(test10_register:70)] - register response = {'status': 100, 'description': '验证码错误!'}
+2022-05-14 19:39:51,324 INFO [root] [login_param.py(test10_register:63)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2022-05-14 19:39:51,324 INFO [root] [loginAPI.py(register:32)] - {'phone': '17844756667', 'password': 'test123', 'verifycode': '8888', 'phone_code': '123456', 'dy_server': 'on', 'invite_phone': ''}
+2022-05-14 19:39:51,371 INFO [root] [login_param.py(test10_register:70)] - register response = {'status': 100, 'description': '验证码错误'}
+2022-05-14 19:39:51,509 INFO [root] [login_param.py(test10_register:63)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2022-05-14 19:39:51,509 INFO [root] [loginAPI.py(register:32)] - {'phone': '17844558667', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'off', 'invite_phone': ''}
+2022-05-14 19:39:51,540 INFO [root] [login_param.py(test10_register:70)] - register response = {'status': 100, 'description': '手机已存在!'}
+2022-05-14 19:39:51,725 INFO [root] [login_param.py(test18_login_phone_not_exist:88)] - login response = {'status': 100, 'description': '用户不存在'}
+2022-05-14 19:39:51,809 INFO [root] [login_param.py(test19_login_pwd_is_null:96)] - login response = {'status': 100, 'description': '密码不能为空'}

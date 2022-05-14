@@ -1,0 +1,35 @@
+2022-05-14 18:02:34,344 INFO [root] [__init__.py(<module>:5)] - 在控制台打印日志
+2022-05-14 18:02:34,560 INFO [root] [login_param.py(test01_get_img_verify_code:58)] - r = 0.6877126616768094 response = <Response [200]>
+2022-05-14 18:02:34,645 INFO [root] [login_param.py(test01_get_img_verify_code:58)] - r = 47573336 response = <Response [200]>
+2022-05-14 18:02:34,714 INFO [root] [login_param.py(test01_get_img_verify_code:58)] - r =  response = <Response [404]>
+2022-05-14 18:02:34,814 INFO [root] [login_param.py(test01_get_img_verify_code:58)] - r = cldkejfm response = <Response [400]>
+2022-05-14 18:02:34,930 INFO [root] [loginAPI.py(register:32)] - {'phone': '17833447711', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': ''}
+2022-05-14 18:02:35,146 INFO [root] [loginAPI.py(register:32)] - {'phone': '17833447712', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': '13012345678'}
+2022-05-14 18:02:35,377 INFO [root] [loginAPI.py(register:32)] - {'phone': '13033447711', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': ''}
+2022-05-14 18:02:35,546 INFO [root] [loginAPI.py(register:32)] - {'phone': '17855556666', 'password': '', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': ''}
+2022-05-14 18:02:35,762 INFO [root] [loginAPI.py(register:32)] - {'phone': '17855556666', 'password': 'test123', 'verifycode': '1234', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': ''}
+2022-05-14 18:02:35,946 INFO [root] [loginAPI.py(register:32)] - {'phone': '17855556666', 'password': 'test123', 'verifycode': '8888', 'phone_code': '123456', 'dy_server': 'on', 'invite_phone': ''}
+2022-05-14 18:02:36,115 INFO [root] [loginAPI.py(register:32)] - {'phone': '17855556666', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'off', 'invite_phone': ''}
+2022-05-14 18:02:36,347 INFO [root] [login_param.py(test18_login_phone_not_exist:381)] - login response = {'status': 100, 'description': '用户不存在'}
+2022-05-14 18:02:36,431 INFO [root] [login_param.py(test19_login_pwd_is_null:389)] - login response = {'status': 100, 'description': '密码不能为空'}
+2022-05-14 18:03:56,890 INFO [root] [__init__.py(<module>:5)] - 在控制台打印日志
+2022-05-14 18:03:57,075 INFO [root] [login_param.py(test01_get_img_verify_code:58)] - r = 0.7337680944928096 response = <Response [200]>
+2022-05-14 18:03:57,168 INFO [root] [login_param.py(test01_get_img_verify_code:58)] - r = 49861822 response = <Response [200]>
+2022-05-14 18:03:57,231 INFO [root] [login_param.py(test01_get_img_verify_code:58)] - r =  response = <Response [404]>
+2022-05-14 18:03:57,321 INFO [root] [login_param.py(test01_get_img_verify_code:58)] - r = bahnmcid response = <Response [400]>
+2022-05-14 18:03:57,437 INFO [root] [login_param.py(test02_register:212)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2022-05-14 18:03:57,437 INFO [root] [loginAPI.py(register:32)] - {'phone': '17833447711', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': ''}
+2022-05-14 18:03:57,622 INFO [root] [login_param.py(test02_register:212)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2022-05-14 18:03:57,622 INFO [root] [loginAPI.py(register:32)] - {'phone': '17833447712', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': '13012345678'}
+2022-05-14 18:03:57,807 INFO [root] [login_param.py(test02_register:212)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2022-05-14 18:03:57,807 INFO [root] [loginAPI.py(register:32)] - {'phone': '13033447711', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': ''}
+2022-05-14 18:03:57,992 INFO [root] [login_param.py(test02_register:212)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2022-05-14 18:03:57,992 INFO [root] [loginAPI.py(register:32)] - {'phone': '17855556666', 'password': '', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': ''}
+2022-05-14 18:03:58,177 INFO [root] [login_param.py(test02_register:212)] - get sms code response = {'status': 100, 'description': '图片验证码错误'}
+2022-05-14 18:03:58,177 INFO [root] [loginAPI.py(register:32)] - {'phone': '17855556666', 'password': 'test123', 'verifycode': '1234', 'phone_code': '666666', 'dy_server': 'on', 'invite_phone': ''}
+2022-05-14 18:03:58,324 INFO [root] [login_param.py(test02_register:212)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2022-05-14 18:03:58,324 INFO [root] [loginAPI.py(register:32)] - {'phone': '17855556666', 'password': 'test123', 'verifycode': '8888', 'phone_code': '123456', 'dy_server': 'on', 'invite_phone': ''}
+2022-05-14 18:03:58,493 INFO [root] [login_param.py(test02_register:212)] - get sms code response = {'status': 200, 'description': '短信发送成功'}
+2022-05-14 18:03:58,493 INFO [root] [loginAPI.py(register:32)] - {'phone': '17855556666', 'password': 'test123', 'verifycode': '8888', 'phone_code': '666666', 'dy_server': 'off', 'invite_phone': ''}
+2022-05-14 18:03:58,725 INFO [root] [login_param.py(test18_login_phone_not_exist:382)] - login response = {'status': 100, 'description': '用户不存在'}
+2022-05-14 18:03:58,810 INFO [root] [login_param.py(test19_login_pwd_is_null:390)] - login response = {'status': 100, 'description': '密码不能为空'}
